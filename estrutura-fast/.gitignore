@@ -1,0 +1,46 @@
+# ==============================================================================
+# Django Specific Files
+# ==============================================================================
+# Local development database (SQLite)
+db.sqlite3
+db.sqlite3-journal
+
+# Compiled static files collected by 'python manage.py collectstatic'
+staticfiles/
+static_cdn/
+
+# User-uploaded media files
+media/
+
+# Runtime logs
+*.log
+
+# Local/private settings (overrides standard settings)
+local_settings.py
+
+# ==============================================================================
+# Python / Environment Files
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+pyenv/
+
+# Environment variable files (contains secrets, API keys, passwords)
+.env
+
+# ==============================================================================
+# Operating System & IDE Files
+# ==============================================================================
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
