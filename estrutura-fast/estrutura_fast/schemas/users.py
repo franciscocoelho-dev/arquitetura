@@ -22,4 +22,3 @@ class UserListSchema(BaseModel):
     users: List[UserPublicSchema]
 
 
-    
